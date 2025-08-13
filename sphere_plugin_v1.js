@@ -10,7 +10,8 @@
   const TITLE = 'Sphere';
   const PREF_KEY = 'sphere_v1_prefs';
   const MENU_COLOR = '#1a1a1a';
-  const TEST_JSON_URL = 'https://raw.githubusercontent.com/AkellaSt2/sphere/refs/heads/main/sphere_sources.json
+  const TEST_JSON_URL = 'https://raw.githubusercontent.com/AkellaSt2/sphere/main/sphere_sources.json';
+
   const Storage = (window.Lampa && Lampa.Storage) ? Lampa.Storage : {
     get: (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch(e){ return d; } },
     set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
