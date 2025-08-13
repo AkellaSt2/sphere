@@ -1,0 +1,30 @@
+[
+  {
+    "key": "mods_like_source",
+    "name": "MODS-like adapter",
+    "desc": "⚠️ External adapter (grey zone). Requires external URL.",
+    "url": "https://example.com/adapter.js",
+    "enabled": false
+  },
+  {
+    "key": "skaz_like_source",
+    "name": "Skaz-like adapter",
+    "desc": "⚠️ External adapter (grey zone). Requires external URL.",
+    "url": "https://example.com/skaz_adapter.js",
+    "enabled": false
+  },
+  {
+    "key": "archive_movies",
+    "name": "Internet Archive Movies",
+    "desc": "Free & open movie library from archive.org",
+    "url": "https://example.com/archive_adapter.js",
+    "enabled": true
+  },
+  {
+    "key": "blender_movies",
+    "name": "Blender Open Movies",
+    "desc": "Free Blender Foundation open movies (up to 4K)",
+    "url": "https://example.com/blender_adapter.js",
+    "enabled": true
+  }
+]
